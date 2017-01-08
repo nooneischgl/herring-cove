@@ -77,3 +77,18 @@ params:
   landingPageRedirectUrl: "/about/"
   AuthorName: "John Doe"
 ```
+
+##Configs are now in TOML
+```TOML 
+[params.links]
+	Home = "/"
+	About = "/about/about/"
+	Posts = "/posts/"
+	B = "b/"
+
+[params]
+  ProfilePicture = "propic.jpg"
+  enableLandingPage = false
+  landingPageRedirectUrl = "/about/"
+  AuthorName = "John Doe"
+  ```
